@@ -52,7 +52,7 @@ header{
     text-decoration: none;
     border-radius: 40px;
     font-size: 20px;
-    padding:5px;
+    padding:10px;
 }
 
 .btn:hover{
@@ -171,8 +171,73 @@ main .container.container2 img{
 }
 
 
-.container-footer{
+footer{
  height: 500px;
- width: 100%;
- background-color: #23272A;   
+ background-color: #23272A; 
+}
+
+.container-footer{
+    width: 50%;
+    height: 500px;
+    margin: 0 auto;
+    border-bottom: 1px solid #7289DA;
+    background-color: #23272A;
+}
+
+/* .container-footer ul{
+    padding: 50px 20%;
+} */
+
+.container-footer ul li{
+    list-style: none;
+    color: white;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.container-footer ul li a{
+    text-decoration: none;
+    color:white;
+}
+
+.container-footer ul li h2{
+    color:#7289DA;
+    padding-bottom:10px;
+}
+
+.container-footer li img{
+    width:30px;
+    height: auto;
+}
+
+ul li span{
+  padding:5px;
+}
+
+.container-footer ul{
+    float:left;
+    padding-right:55px;
+    margin-top: 25px;
+}
+
+.container-footer ul .list-title { 
+    color:#7289DA;
+}
+
+
+
+.button-bottom{
+    height: 100px;
+    background-color: #23272A;
+}
+
+.container-button-bottom{
+    width:50%;
+    height:100px;
+    margin: 0 auto;
+    padding:20px;
+}
+
+.container-button-bottom .btn{
+ float:right;
 }
