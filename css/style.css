@@ -170,23 +170,17 @@ main .container.container2 img{
   padding-bottom: 20px;
 }
 
-
 footer{
  height: 500px;
  background-color: #23272A; 
 }
 
 .container-footer{
-    width: 50%;
+    width: 60%;
     height: 500px;
-    margin: 0 auto;
-    
+    margin: 0 auto; 
     background-color: #23272A;
 }
-
-/* .container-footer ul{
-    padding: 50px 20%;
-} */
 
 .container-footer ul li{
     list-style: none;
@@ -216,15 +210,14 @@ ul li span{
 
 .container-footer ul{
     float:left;
-    padding-right:55px;
+    padding-right:20px;
     margin-top: 25px;
+    width: 20%;
 }
 
 .container-footer ul .list-title { 
     color:#7289DA;
 }
-
-
 
 .button-bottom{
     height: 100px;
