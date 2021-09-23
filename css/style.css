@@ -128,11 +128,11 @@ header{
     margin-right: 20px;
 }
 
-main .container img{
+main .container .img-content{
     float: left;
 }
 
-main .container.container2 img{
+main .container.container2 .img-content{
     float: right;
 }
 
